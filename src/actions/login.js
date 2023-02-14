@@ -23,7 +23,7 @@ const login = () => {
       console.log(shell.realm.whoAmI());
     });
   } else {
-    const whoami = shell.execute('realm-cli whoami');
+    const whoami = shell.realm.whoAmI();
     console.log(whoami);
   }
 };

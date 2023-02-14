@@ -1,7 +1,7 @@
 const { execSync } = require('child_process');
 const path = require('path');
 
-const realmCliPath = path.join(__dirname, '..', 'node_modules', 'mongodb-realm-cli', 'realm-cli');
+const realmCliPath = path.join(path.dirname(__filename), '..', 'node_modules', 'mongodb-realm-cli', 'realm-cli');
 
 const execute = (command) => {
   const output = execSync(command);
