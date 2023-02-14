@@ -1,0 +1,26 @@
+{
+  "name": "@kokosro/realm-app-tools",
+  "version": "0.1.0",
+  "description": "Manage Realm Apps",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "realm-app-tools": "./bin/realm-app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "convict": "^6.2.4",
+    "dotenv": "^16.0.3",
+    "mongodb-realm-cli": "^2.6.2",
+    "prompt": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "homepage": "https://github.com/kokosro/realm-app-tools#readme"
+}
