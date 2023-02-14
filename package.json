@@ -1,11 +1,11 @@
 {
   "name": "@kokosro/realm-app-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage Realm Apps",
   "main": "index.js",
   "scripts": {},
   "bin": {
-    "realm-app-tools": "./bin/realm-app.js"
+    "realm-app-tools": "./bin/realm-app-tools.js"
   },
   "author": "",
   "license": "ISC",
